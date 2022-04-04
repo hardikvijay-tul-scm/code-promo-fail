@@ -22,9 +22,9 @@ pipeline {
                 credentialsId: 'nexus3',
                 groupId: 'in.javahome',
                 nexusUrl: 'new.nexusrepocodeprom.pagekite.me',
-                nexusVersion: 'nexus2',
+                nexusVersion: 'nexus3',
                 protocol: 'http',
-                repository: 'http://new.nexusrepocodeprom.pagekite.me/repository/code-promo/', 
+                repository: 'code-promo', 
                 version: '1.0.0'
             }
         }
